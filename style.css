@@ -12,17 +12,25 @@
     line-height: 1.6;
   }
   
-  /* Header */
-  header {
-    background-color: #240c0c;
-    color: #fff;
-    padding: 1.5rem 2rem;
-    text-align: center;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-  }
-  
+
+header {
+  display: flex;
+  justify-content: space-around; /* Brand kiri, logo kanan */
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f5f5f5;
+}
+
+.brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.logo {
+  height: 50px;
+}
+
   header h1 {
     margin-bottom: 0.5rem;
     font-size: 2rem;
@@ -166,4 +174,5 @@
       gap: 0.75rem;
     }
   }
+
   
