@@ -147,14 +147,6 @@ header {
     margin-bottom: 1rem;
   }
   
-  /* Footer */
-  footer {
-    background-color: #1e3a8a;
-    color: white;
-    text-align: center;
-    padding: 1rem 2rem;
-  }
-  
  .contact-section {
   text-align: center;
   background-color: #e4eaff; /* warna biru muda mirip di screenshot */
@@ -173,7 +165,7 @@ header {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  background-color: #00a859;
+  background-color: #00a859; /* Hijau brand */
   color: white;
   padding: 12px 20px;
   border-radius: 50px;
@@ -193,4 +185,3 @@ header {
   width: 20px;
   height: 20px;
 }
-
