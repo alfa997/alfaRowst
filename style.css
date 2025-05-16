@@ -48,12 +48,11 @@ nav ul {
 }
 
 nav a {
-    color: #333; /* perbaikan: agar terlihat di background putih */
+    color: #ffffff; /* perbaikan: agar terlihat di background putih */
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s;
 }
-
 nav a:hover {
     color: #93c5fd;
 }
